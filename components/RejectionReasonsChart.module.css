@@ -1,0 +1,60 @@
+.chartCard {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  height: 100%;
+}
+
+.chartHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.chartTitle {
+  margin: 0 !important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1A1D1F;
+}
+
+.reasonsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reasonItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reasonText {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #1A1D1F;
+  font-weight: 500;
+}
+
+.barContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 12px;
+}
+
+.progressBar {
+  height: 8px;
+  background: #4299E1;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.countText {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: #6C7275;
+  font-weight: 500;
+} 

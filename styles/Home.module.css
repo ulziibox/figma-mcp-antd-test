@@ -1,15 +1,16 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  min-height: calc(100vh - 60px);
+  padding: 2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  background-color: #f5f5f5;
 }
 
 .footer {
@@ -42,7 +43,8 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2.5rem;
+  color: #21282F;
 }
 
 .title,
@@ -51,9 +53,10 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1.5rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: #495B6C;
 }
 
 .code {
@@ -109,9 +112,8 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .main {
+    padding: 1rem;
   }
 }
 

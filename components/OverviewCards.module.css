@@ -1,0 +1,59 @@
+.statCard {
+  border-radius: 12px;
+  border: 1px solid #E4E7EB;
+  height: 100%;
+}
+
+.statCardHeader {
+  padding: 12px 16px;
+}
+
+.statCardTitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #495B6C;
+  margin: 0;
+}
+
+.divider {
+  margin: 0 !important;
+  border-color: #E4E7EB;
+}
+
+.statContent {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.statItem {
+  background-color: #F9FAFC;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.statLabel {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #A4ADB5;
+}
+
+.statValue {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: #495B6C;
+  line-height: 1.2;
+}
+
+.statTrend {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+} 

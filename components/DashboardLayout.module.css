@@ -1,0 +1,27 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+}
+
+.mainLayout {
+  background-color: #F4F6F9;
+  flex: 1;
+}
+
+.content {
+  margin: 16px;
+}
+
+.sidebarCol {
+  background-color: #F4F6F9;
+}
+
+.sidebarContent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dashboardCol {
+  background-color: #F4F6F9;
+} 

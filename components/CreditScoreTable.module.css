@@ -1,0 +1,65 @@
+.tableCard {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  height: 100%;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.tableTitle {
+  margin: 0 !important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1A1D1F;
+}
+
+.creditTable {
+  width: 100%;
+}
+
+.columnRange,
+.columnPercentage,
+.columnStatus {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #4B5563;
+}
+
+.statusTag {
+  border: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: white !important;
+  text-transform: uppercase;
+}
+
+/* Customize the antd table */
+.creditTable :global(.ant-table-thead > tr > th) {
+  background-color: #F9FAFB;
+  font-weight: 600;
+  font-size: 13px;
+  color: #6C7275;
+  padding: 10px 16px;
+}
+
+.creditTable :global(.ant-table-tbody > tr > td) {
+  padding: 10px 16px;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.creditTable :global(.ant-table-tbody > tr:last-child > td) {
+  border-bottom: none;
+}
+
+.creditTable :global(.ant-table-tbody > tr:hover > td) {
+  background-color: #F9FAFB;
+} 
